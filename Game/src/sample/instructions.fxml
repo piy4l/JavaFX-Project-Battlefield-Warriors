@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootpane" prefHeight="1000.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Instructions">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../instructionsimg.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1698.0" layoutY="893.0" mnemonicParsing="false" onAction="#setMainMenu" prefHeight="67.0" prefWidth="182.0" style="-fx-background-color: #0000CD; -fx-border-color: #ffffff; -fx-border-radius: 30; -fx-background-radius: 30; -fx-border-width: 5;" text="Main Menu" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

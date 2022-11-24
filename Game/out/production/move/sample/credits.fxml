@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="rootpane" prefHeight="1000.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Credits">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../creditpage.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="350.0" fitWidth="350.0" layoutX="154.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Eusuf.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="1049.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../piyal.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="1049.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../kawshik.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="44.0" prefHeight="56.0" prefWidth="192.0" style="-fx-background-color: #0000ff; -fx-background-radius: 30; -fx-border-color: #ffffff; -fx-border-radius: 30; -fx-border-width: 5;" text="Supervisor">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="1698.0" layoutY="893.0" mnemonicParsing="false" onAction="#setMainMenu" prefHeight="67.0" prefWidth="182.0" style="-fx-background-color: #0000CD; -fx-border-color: #ffffff; -fx-border-radius: 30; -fx-background-radius: 30; -fx-border-width: 5;" text="Main Menu" textFill="#fffefe">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

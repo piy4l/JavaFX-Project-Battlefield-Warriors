@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="rootpane" prefHeight="1000.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WaitingForUser">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../waitforuser.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="1658.0" layoutY="849.0" mnemonicParsing="false" onAction="#setOnExit" prefHeight="86.0" prefWidth="162.0" style="-fx-background-color: #0000ff; -fx-background-radius: 30; -fx-border-color: #ffffff; -fx-border-radius: 30; -fx-border-width: 5;" text="Exit" textFill="#fffdfd">
+         <font>
+            <Font name="Comic Sans MS" size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

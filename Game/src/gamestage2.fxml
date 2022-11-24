@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="990.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gamestage2">
+   <children>
+      <ImageView fitHeight="990.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gamestage2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="391.0" layoutX="578.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gamestage2o1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="262.0" layoutX="327.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gamestage2o2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="506.0" fitWidth="326.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gamestage2o3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="320.0" layoutX="1036.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gamestage2o4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="247.0" layoutX="1347.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gamestage2o5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="506.0" fitWidth="320.0" layoutX="1588.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gamestage2o6.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="1647.0" layoutY="765.0" prefHeight="175.0" prefWidth="247.0">
+         <children>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: #9ACD32; -fx-border-color: #991010; -fx-border-radius: 30; -fx-background-radius: 30; -fx-border-width: 5;" text="Level : " textFill="#b20c0c">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: #9ACD32; -fx-border-color: #991010; -fx-border-radius: 30; -fx-background-radius: 30; -fx-border-width: 5;" text="Score : " textFill="#b20c0c">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="60.0" prefWidth="250.0" style="-fx-background-color: #9ACD32; -fx-border-color: #991010; -fx-border-radius: 30; -fx-background-radius: 30; -fx-border-width: 5;" text="Bullets : " textFill="#b20c0c">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <ImageView fx:id="army1" fitHeight="150.0" fitWidth="200.0" layoutX="129.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@army1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
